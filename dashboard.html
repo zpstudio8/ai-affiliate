@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard Affiliate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📊 Dashboard AI Affiliate</h1>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Total Video</h3>
+    <p id="totalVideo">0</p>
+  </div>
+
+  <div class="card">
+    <h3>Total Klik</h3>
+    <p id="totalKlik">0</p>
+  </div>
+
+  <div class="card">
+    <h3>Total Income</h3>
+    <p id="totalIncome">Rp 0</p>
+  </div>
+
+</div>
+
+<h2>📋 Input Data</h2>
+
+<input type="text" id="judul" placeholder="Judul Video">
+<input type="number" id="klik" placeholder="Jumlah Klik">
+<input type="number" id="income" placeholder="Income (Rp)">
+
+<button onclick="tambahData()">Tambah Data</button>
+
+<h2>📈 Data Video</h2>
+<table id="table">
+<tr>
+<th>Judul</th>
+<th>Klik</th>
+<th>Income</th>
+</tr>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
